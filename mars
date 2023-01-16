@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-01-13 02:23:37
+#  创建时间：2023-01-16 18:19:55
 #  模版：v2rayse默认模版
-#  节点数量：116
+#  节点数量：136
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -129,6 +129,26 @@ proxies:
   - {"type":"ss","name":"🇸🇬_SG_366","server":"81.90.189.52","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"🇸🇬_SG_367_2","server":"81.90.189.49","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"🇬🇧_UK_London_368","server":"series1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"OPIGHSeIZVBS7hDX"}
+  - {"type":"ss","name":"🇺🇸_US_369","server":"162.251.61.221","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇺🇸_US_370","server":"162.251.61.221","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"🇸🇬_SG_371","server":"45.64.22.56","port":443,"password":"123456","udp":true,"skip-cert-verify":true,"sni":"trojan-ctb-sg01.globalssh.xyz","network":"tcp"}
+  - {"type":"trojan","name":"🇻🇳_VN_372","server":"14.116.206.223","port":20069,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-guangzhou.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇭🇰_HK_373","server":"14.116.206.223","port":20007,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-guangzhou.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇮🇱_IL_374","server":"42.81.138.103","port":20067,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-beijing.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇨🇱_Chile_375","server":"117.149.247.11","port":20064,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"oss-cn-shanghai.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇹🇭_TH_376","server":"14.116.206.223","port":20068,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-guangzhou.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇪🇸_ES_377","server":"42.81.138.103","port":20059,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-beijing.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇯🇵_JP_378","server":"117.149.247.11","port":20032,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"oss-cn-shanghai.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇹🇼_TW_379","server":"14.116.206.223","port":20017,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-guangzhou.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_US_380","server":"117.149.247.11","port":20045,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"oss-cn-shanghai.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_US_381","server":"117.149.247.11","port":20043,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"oss-cn-shanghai.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇸🇬_SG_382","server":"14.116.206.223","port":20022,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-guangzhou.westdatacloud.top","network":"tcp"}
+  - {"type":"trojan","name":"🇩🇪_DE_383","server":"42.81.138.103","port":20055,"password":"1be702e4-6ddb-11ed-bbdc-f23c935380ee","udp":true,"skip-cert-verify":true,"sni":"cos-ap-beijing.westdatacloud.top","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰_HK_384","ws-opts":{"path":"/56831bcbd0ac","headers":{"host":"20202df8cf1b165f6.spbohk.com"}},"server":"45.64.22.42","port":"443","uuid":"7adb6199-b02d-4942-a318-56831bcbd0ac","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇯🇵_JP_385","server":"43.207.2.60","port":443,"password":"hfjlmL5z","udp":true,"skip-cert-verify":true,"sni":"cn.bing.com","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰_HK_386","ws-opts":{"path":"/f57a88ea406d","headers":{"host":"202442cd6ad9a30ba.spbohk.com"}},"server":"45.64.22.56","port":"443","uuid":"f0879370-bf50-44de-b547-f57a88ea406d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_387","ws-opts":{"path":"/https://t.me/yunjisuan888/","headers":{"host":"yjs.fastal.one"}},"server":"cf.fastal.one","port":"8443","uuid":"3bba7cb9-20db-4604-dfdc-71dde392c50c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰_HK_388","server":"0kxedm1x8q8lksmj04.xingbayun.buzz","port":"10004","uuid":"8c99f546-14de-47d4-8811-253219772e04","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -251,6 +271,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -373,6 +413,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -495,6 +555,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
   - name: 📲 电报信息
     type: select
     proxies:
@@ -616,6 +696,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -737,6 +837,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -858,6 +978,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -996,6 +1136,26 @@ proxy-groups:
       - 🇸🇬_SG_366
       - 🇸🇬_SG_367_2
       - 🇬🇧_UK_London_368
+      - 🇺🇸_US_369
+      - 🇺🇸_US_370
+      - 🇸🇬_SG_371
+      - 🇻🇳_VN_372
+      - 🇭🇰_HK_373
+      - 🇮🇱_IL_374
+      - 🇨🇱_Chile_375
+      - 🇹🇭_TH_376
+      - 🇪🇸_ES_377
+      - 🇯🇵_JP_378
+      - 🇹🇼_TW_379
+      - 🇺🇸_US_380
+      - 🇺🇸_US_381
+      - 🇸🇬_SG_382
+      - 🇩🇪_DE_383
+      - 🇭🇰_HK_384
+      - 🇯🇵_JP_385
+      - 🇭🇰_HK_386
+      - 🇺🇸_US_387
+      - 🇭🇰_HK_388
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
