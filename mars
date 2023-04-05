@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：03-03-2023 20:58:54
+# 创建时间：05-04-2023 20:55:52
 # 使用模版：V2RaySE 默认模版
-# 节点数量：31
+# 节点数量：42
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -52,6 +52,17 @@ proxies:
   - {"name":"🇸🇬_SG_469","type":"vmess","server":"202.79.172.53","port":443,"cipher":"auto","uuid":"30216206-14b7-40e7-995d-61c1219ba584","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/220128071100"}}
   - {"name":"🇯🇵_JP_470","type":"ss","server":"43.207.166.104","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇰🇷_KR_472","type":"trojan","server":"2.hg.kr.cat77.cloud","port":8443,"udp":true,"password":"cd27884b-c5af-34ec-b75f-8248077818fe","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_473","type":"vmess","server":"23.224.110.182","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/080712342310"}}
+  - {"name":"🇰🇷_KR_474","type":"vmess","server":"hg02.wruox.cf","port":2096,"cipher":"auto","uuid":"69e92166-f2e7-4093-a98b-5113711fb0e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/asdfas","headers":{"host":"hg02.wruox.cf"}}}
+  - {"name":"🇺🇸_US_475","type":"vmess","server":"d.pgypgykmoljklj.xyz","port":443,"cipher":"auto","uuid":"fa4cb529-3ac9-4268-bb04-ed4253813508","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/mR17oBKzZ7","headers":{"host":"d.pgypgykmoljklj.xyz"}}}
+  - {"name":"🇺🇸_US_476","type":"vmess","server":"23.224.110.183","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/080712342310"}}
+  - {"name":"🇺🇸_US_477","type":"vmess","server":"172.66.41.99","port":443,"cipher":"auto","uuid":"44bab30b-d1da-40b4-b65d-e0a3a98c0de6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ss.239000.xyz","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"ss.239000.xyz"}}}
+  - {"name":"🇺🇸_US_478","type":"vmess","server":"111.23.252.214","port":59902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬_SG_479","type":"vmess","server":"43.156.111.144","port":43972,"cipher":"auto","uuid":"ffd17b65-3ea1-42e6-a75a-9c90caebb530","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"sg5.linkeden.co","network":"ws","ws-opts":{"path":"/sg5/getData","headers":{"host":"sg5.linkeden.co"}}}
+  - {"name":"🇸🇬_SG_480","type":"vmess","server":"27.124.2.38","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/031730091420"}}
+  - {"name":"🇺🇸_US_481","type":"vmess","server":"172.67.136.150","port":443,"cipher":"auto","uuid":"44bab30b-d1da-40b4-b65d-e0a3a98c0de6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ss.239000.xyz","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"ss.239000.xyz"}}}
+  - {"name":"🇺🇸_US_482","type":"vmess","server":"23.224.30.43","port":51504,"cipher":"auto","uuid":"bb25859e-f6da-4101-989f-b4dd67a22682","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰_HK_483","type":"trojan","server":"cn-hk-51.fnhffffe4.cc","port":50014,"udp":true,"password":"73658d71-be45-4495-bc3e-e69d36ce73b5","sni":"cn-hk-51.fnhffffe4.cc","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -89,6 +100,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -126,6 +148,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -163,6 +196,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
   - name: 📲 电报信息
     type: select
     proxies:
@@ -199,6 +243,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -235,6 +290,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -271,6 +337,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -324,6 +401,17 @@ proxy-groups:
       - 🇸🇬_SG_469
       - 🇯🇵_JP_470
       - 🇰🇷_KR_472
+      - 🇺🇸_US_473
+      - 🇰🇷_KR_474
+      - 🇺🇸_US_475
+      - 🇺🇸_US_476
+      - 🇺🇸_US_477
+      - 🇺🇸_US_478
+      - 🇸🇬_SG_479
+      - 🇸🇬_SG_480
+      - 🇺🇸_US_481
+      - 🇺🇸_US_482
+      - 🇭🇰_HK_483
 
 rules:
 # 本地/局域网地址
